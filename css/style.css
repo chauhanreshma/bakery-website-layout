@@ -1,25 +1,27 @@
-
-/*<!--<one-section>-->*/
-
 .bg-img{
-    background-image: url("image/banner-bg.jpg");
+    background-image: url("../image/banner-bg.jpg");
     background-size: cover;
     height: 100%;
-    background-color: rgba(4,9,30,0.5);
+}
+.media-font:hover{
+    color: #d1ab7f;
+
 }
 .media-font{
     color: white;
     font-size: 14px;
 }
-.media-font:hover{
-    color:#d1ab7f;
-}
 .cont{
     color: white;
     font-size: 14px;
-    text-align: right;
 }
 .cont:hover{
     text-decoration: none;
     color: white;
+}
+.btn{
+    border: none;
+}
+.menu-list{
+    font-size: 12px;
 }
