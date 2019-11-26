@@ -124,3 +124,20 @@
     background-color: white;
     text-decoration: none;
 }
+.about-img{
+    width: 20%;
+    height: 26%;
+    position: absolute;
+    right: 0;
+    margin-top: 13em;
+}
+
+
+/*<!--<three section>-->*/
+.item-category{
+    background-color: #f9f9ff;
+    padding: 100px 0px 90px 0px;
+}
+.item-img{
+    border-radius: 50%;
+}
