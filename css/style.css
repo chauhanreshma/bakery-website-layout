@@ -1,3 +1,6 @@
+/*<navbar-section>*/
+
+
 .bg-img{
     background-image: url("../image/banner-bg.jpg");
     background-size: cover;
@@ -5,15 +8,14 @@
 }
 .media-font:hover{
     color: #d1ab7f;
-
 }
 .media-font{
     color: white;
-    font-size: 14px;
+    font-size: 12px;
 }
 .cont{
     color: white;
-    font-size: 14px;
+    font-size: 12px;
 }
 .cont:hover{
     text-decoration: none;
@@ -24,4 +26,23 @@
 }
 .menu-list{
     font-size: 12px;
+}
+.drop{
+    padding: 15px 70px;
+    background-color: red;
+    float: right;
+    position: relative;
+    right: 165px;
+}
+@media(max-width: 800px) {
+    .menu ul{
+        opacity: 0;
+        visibility: hidden;
+        display:none;
+        max-width: 100%;
+
+    }
+    .nav-list{
+
+    }
 }
