@@ -1,48 +1,101 @@
 /*<navbar-section>*/
 
 
-.bg-img{
+.bg-img {
     background-image: url("../image/banner-bg.jpg");
     background-size: cover;
     height: 100%;
 }
-.media-font:hover{
+
+.media-font:hover {
     color: #d1ab7f;
 }
-.media-font{
+
+.media-font {
     color: white;
     font-size: 12px;
 }
-.cont{
+
+.cont {
     color: white;
     font-size: 12px;
 }
-.cont:hover{
+
+.cont:hover {
     text-decoration: none;
     color: white;
 }
-.btn{
+
+.btn {
     border: none;
 }
-.menu-list{
+
+.menu-list {
     font-size: 12px;
 }
-.drop{
-    padding: 15px 70px;
-    background-color: red;
+
+.drop {
     float: right;
     position: relative;
-    right: 165px;
+    right: 10em;
+    width: 18%;
+    padding: 8px 15px 15px;
+    opacity: 0;
 }
-@media(max-width: 800px) {
-    .menu ul{
+
+.under-drop-menu {
+    color: black;
+    font-size: 13px;
+}
+
+.drop-menu:hover {
+    opacity: 1;
+    transition: 0.3s;
+
+}
+
+.under-drop-menu:hover {
+    color: #d1ab7f;
+    text-decoration: none;
+}
+@media (max-width: 990px) {
+
+}
+@media (max-width: 800px) {
+    .menu ul {
         opacity: 0;
         visibility: hidden;
-        display:none;
+        display: none;
+    }
+
+    .container.main-menu {
         max-width: 100%;
-
     }
-    .nav-list{
+}
+@media (max-width: 600px) {
 
+}
+@media (max-width: 425px) {
+    .small-header{
+        font-size: 10px;
+        letter-spacing: 1px;
     }
+}
+
+/*<!--jumbotron-->*/
+.head {
+    /*margin-left: 5em;*/
+
+}
+
+.heading {
+    font-size: 75px;
+}
+
+.small-header {
+    font-size: 13px;
+    color: white;
+    letter-spacing: 1px;
+    padding-left: 14em;
+
 }
