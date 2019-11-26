@@ -99,3 +99,28 @@
     padding-left: 14em;
 
 }
+
+/*<!--<second section>-->*/
+.about-area{
+    padding: 120px 0px;
+}
+.about-area h6{
+    color: #d1ab7f;
+    font-size: 14px;
+}
+.about-area h1{
+    padding-top: 20px;
+}
+.primary-btn{
+    border: solid 1px #d1ab7f;
+    padding: 10px 30px;
+    background-color: #d1ab7f;
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+}
+.primary-btn:hover{
+    color: #d1ab7f;
+    background-color: white;
+    text-decoration: none;
+}
