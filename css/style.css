@@ -235,6 +235,29 @@
     background-color: white;
     text-decoration: none;
     border: solid 1px #d1ab7f;
-
 }
+.right-video{
+    background-image: url("../image/video-bg.jpg");
+    background-size: cover;
+    height: 330px;
+}
+.play-video{
+    margin: auto;
+}
+
+/*<!--<five section>-->*/
+
+.clint-review{
+    background-image: url("../image/review-bg.jpg");
+    background-size: cover;
+    height: 100%;
+}
+.over{
+    background: rgba(4,9,30,.5);
+    height: 100%;
+}
+.col-md-12{
+    padding: 120px 0px;
+}
+
 
