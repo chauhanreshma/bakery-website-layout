@@ -259,5 +259,13 @@
 .col-md-12{
     padding: 120px 0px;
 }
-
-
+.star-line a{
+    text-decoration: none;
+}
+.star-font{
+    font-size: 12px;
+}
+.star-left p{
+    font-size: 15px;
+    width: 95%;
+}
