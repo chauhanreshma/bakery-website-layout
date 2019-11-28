@@ -320,6 +320,9 @@
     font-size: 15px;
     padding: 0px 145px;
 }
+.latest-blog{
+    padding-bottom: 100px;
+}
 
 @media (max-width: 800px) {
     .latest-blog p {
@@ -338,4 +341,28 @@
         padding: 0px 20px;
 
     }
+}
+.blog img{
+    width: 350px;
+}
+.mid-con a:hover{
+    text-decoration: none;
+    color: black;
+}
+.mid-con a{
+    color: black;
+}
+.mid-con h6{
+    font-size: 14px;
+    font-weight: 400;
+}
+.mid-con a h5{
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 15px 0px;
+}
+.blog-para{
+    padding: 0 !important;
+    text-align: left !important;
+    width: 94%;
 }
