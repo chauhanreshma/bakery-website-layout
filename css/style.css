@@ -61,7 +61,9 @@
 
 
 @media (max-width: 990px) {
-
+     .main-menu{
+         padding-bottom: 20px;
+     }
 }
 
 @media (max-width: 800px) {
@@ -418,5 +420,9 @@
 .colorlib i{
     font-size:14px;
     color: #d1ab7f;
-
+}
+@media (max-width: 800px) {
+    .about{
+        margin-top: 60px;
+    }
 }
