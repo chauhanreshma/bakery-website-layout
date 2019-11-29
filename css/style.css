@@ -322,11 +322,19 @@
 }
 .latest-blog{
     padding-bottom: 100px;
+    box-sizing: border-box;
 }
-
+@media (max-width: 1024px) {
+    .blog img{
+        width: 350px;
+    }
+}
 @media (max-width: 800px) {
     .latest-blog p {
         padding: 0px 110px;
+    }
+    .blog img{
+        width: 350px;
     }
 }
 
@@ -365,4 +373,50 @@
     padding: 0 !important;
     text-align: left !important;
     width: 94%;
+}
+
+/*<!--<seven section>-->*/
+.footer{
+    background-color: #04091e;
+    padding: 100px 0px;
+}
+.about p{
+    font-size: 15px;
+}
+.footer-btn{
+    border: 1px solid white;
+    padding: 8px 0px;
+    width: 85%;
+    background-color: white;
+    font-size: 13px;
+}
+.arrow-btn{
+    padding: 8px 13px;
+    background-color: #d1ab7f;
+    color: white;
+    position: relative;
+    right: 5px;
+}
+.arrow-btn:hover{
+    text-decoration: none;
+    color: white;
+}
+.aro{
+    font-size: 13px;
+}
+.colorlib h6{
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+.colorlib a{
+    color: #d1ab7f;
+}
+.lob-ancor:hover{
+    text-decoration: none;
+}
+.colorlib i{
+    font-size:14px;
+    color: #d1ab7f;
+
 }
