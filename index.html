@@ -15,7 +15,7 @@
 <body class="h-100">
 
 <!--<navbar-section>-->
-<section class=" h-100 ">
+<section class="">
     <div class="bg-img">
         <div class="container main-menu">
             <div class="row">
@@ -52,18 +52,19 @@
             </div>
 
             <div class="row nav-list">
-                <nav class="navbar navbar-expand-md bg-white  navbar-light w-100">
+                <nav class="navbar navbar-expand-lg bg-white h-25  navbar-light w-100">
                     <a href="#" class="navbar-brand">
                         <img src="image/logo.png">
                     </a>
 
-                    <button class="navbar-toggler btn" type="button" data-toggle="collapse" date-target="#menu">
+                    <button class="navbar-toggler btn" type="button"
+                            data-toggle="collapse" date-target="#menu">
                         <span class="navbar-toggler-icon"></span>
                     </button>
 
                     <div class="collapse navbar-collapse" id="menu">
                         <ul class="navbar-nav text-center ml-auto menu-list font-weight-bold">
-                            <li class="nav-item pr-5">
+                            <li class="nav-item">
                                 <a href="#" class="nav-link">HOME</a>
                             </li>
                             <li class="nav-item pl-2">
@@ -75,8 +76,15 @@
                             <li class="nav-item pl-2">
                                 <a href="#" class="nav-link">TEAM</a>
                             </li>
-                            <li class="nav-item pl-2 drop-menu">
-                                <a href="#" class="nav-link dropdown-toggle ">BLOG</a>
+                            <li class="nav-item pl-2 ">
+                                <a href="#" class="nav-link dropdown-toggle">BLOG</a>
+                                <div class="drop-menu">
+                                    <ul class="bg-white mt-5">
+                                        <li><a href="#">Blog home</a></li>
+                                        <li><a href="#">Blog Single</a></li>
+                                        <li><a href="#">Level 2</a></li>
+                                    </ul>
+                                </div>
                             </li>
                             <li class="nav-item pl-2">
                                 <a href="#" class="nav-link">ELEMENTS</a>
@@ -88,26 +96,15 @@
                     </div>
                 </nav>
             </div>
-            <ul class="bg-white drop">
-                <li class="d-block">
-                    <a href="#" class="under-drop-menu">Blog home</a>
-                </li>
-                <li class="d-block pt-2">
-                    <a href="#" class="under-drop-menu">Blog Single</a>
-                </li>
-                <li class="d-block pt-2">
-                    <a href="#" class="under-drop-menu">Level 2</a>
-                </li>
-            </ul>
 
             <div class="row  justify-content-center ">
                 <div class="col-lg-12 text-md-center col-md-12 header-contain">
                     <h6 class="text-white text-center">WHENEVER WE BAKE, BAKE
                         WITH OUR HEART</h6>
-                    <hr class="w-100 mx-auto hori-line">
+                    <hr class="w-75 mx-auto hori-line">
                     <h1 class="heading text-center font-weight-bold text-white">
                         Love with baking items</h1>
-                    <hr class="w-100 mx-auto hori-line">
+                    <hr class="w-75 mx-auto hori-line">
                     <p class="text-white mb-5">Since Americans in the South began roasting pigs publicly,
                         Barbecues have been a staple of North American living.
                         For many, grilling becomes a routine mealtime activity.
@@ -458,5 +455,8 @@
 </section>
 
 
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>
